@@ -1,0 +1,23 @@
+{
+  "name": "ripeto-view",
+  "description": "Reapeat view object.",
+  "homepage": "https://github.com/krambuhl/ripeto-view",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/ripeto-view.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  },
+  "dependencies": {
+    "clas": "0.0.9",
+    "ripeto-coreobj": "https://github.com/krambuhl/ripeto-coreobj/tarball/master",
+    "ripeto-store": "https://github.com/krambuhl/ripeto-store/tarball/master"
+  }
+}
